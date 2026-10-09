@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact Us - Volt Store</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="header">
+  <nav class="nav">
+    <a class="brand" href="index.html">VOLT<span>STORE</span></a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products1.html">Products 1</a></li>
+      <li><a href="products2.html">Products 2</a></li>
+      <li><a href="offers.html">Special Offers</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="container">
+  <h1 class="page-title">Contact Us</h1>
+  <p class="page-subtitle">We'd love to hear from you. Reach out anytime.</p>
+  <div class="contact-card">
+    <div class="contact-row">
+      <div class="contact-icon">📞</div>
+      <div><strong>Phone</strong><a href="tel:780740978">780530278</a></div>
+    </div>
+    <div class="contact-row">
+      <div class="contact-icon">✉️</div>
+      <div><strong>Email</strong><a href="mailto:saeed@gmail.com">Volt-Store@gmail.com</a></div>
+    </div>
+    <div class="contact-row">
+      <div class="contact-icon">📍</div>
+      <div><strong>Store</strong>Volt Store HQ - Open daily 9:00 - 21:00</div>
+    </div>
+    <form class="contact-form" onsubmit="return sendMessage(event)">
+      <input name="name" placeholder="Your name" required />
+      <input name="email" type="email" placeholder="Your email" required />
+      <textarea name="message" placeholder="Your message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+</main>
+<footer class="footer">© 2026 Volt Store · All rights reserved</footer>
+<script src="script.js"></script>
+</body></html>
